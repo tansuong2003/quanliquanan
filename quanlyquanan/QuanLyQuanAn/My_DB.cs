@@ -25,54 +25,20 @@ namespace QuanLyQuanAn
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-            if(dt.Rows.Count > 0) {  isValid = true; }
-            return isValid;
+            if(dt.Rows.Count > 0) 
+            {  
+                isValid = true; 
+                USER = dt.Rows[0]["uName"].ToString();
+            }
+            return isValid; 
         }
 
-       /* public SqlConnection getConnection
+        public static string user;
+        public static string USER
         {
-            get
-            {
-                return con;
-            }
+            get { return user; }
+            private set { user = value; }
         }
-        SqlConnection conAdmin = new SqlConnection(@"Data Source=LAPTOP-TSVFN4HJ;Initial
-Catalog=QUANLYQUANCOFFEE_Cur;Integrated Security=True");
-        public SqlConnection getConnectionAdmin
-        {
-            get
-            {
-                return conAdmin;
-            }
-        }
-        // open the connection
-        public void openConnection()
-        {
-            if (con.State == ConnectionState.Closed)
-            {
-                con.Open();
-            }
-        }
-        public void openConnectionAdmin()
-        {
-            if (conAdmin.State == ConnectionState.Closed)
-            {
-                conAdmin.Open();
-            }
-        }
-        public void closeConnection()
-        {
-            if (con.State == ConnectionState.Open)
-            {
-                con.Close();
-            }
-        }
-        public void closeConnectionAdmin()
-        {
-            if (conAdmin.State == ConnectionState.Open)
-            {
-                conAdmin.Close();
-            }
-        }*/
+       
     }
 }
