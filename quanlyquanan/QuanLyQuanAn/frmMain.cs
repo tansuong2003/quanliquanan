@@ -46,7 +46,7 @@ namespace QuanLyQuanAn
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-
+            AddControls(new frmPhanCa());
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -62,6 +62,11 @@ namespace QuanLyQuanAn
         private void btnHome_Click(object sender, EventArgs e)
         {
             AddControls(new frmHome());
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

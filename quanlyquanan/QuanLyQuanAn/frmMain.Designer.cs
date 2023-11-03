@@ -122,6 +122,7 @@
             this.guna2Button6.Text = "Nhân Viên";
             this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button6.TextOffset = new System.Drawing.Point(20, 0);
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button5
             // 
@@ -146,7 +147,7 @@
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(180, 45);
             this.guna2Button5.TabIndex = 6;
-            this.guna2Button5.Text = "Thống Kê";
+            this.guna2Button5.Text = "Phân Ca";
             this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.TextOffset = new System.Drawing.Point(20, 0);
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
