@@ -13,6 +13,7 @@ D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.
 D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
 D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.frmMain.resources
 D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.frmHome.resources
+<<<<<<< HEAD
 D:\QuanLiQuanAn\quanliquanan\quanlyquanan\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
 D:\QuanLiQuanAn\quanliquanan\quanlyquanan\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
 D:\QuanLiQuanAn\quanliquanan\quanlyquanan\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
@@ -45,3 +46,6 @@ D:\QuanLiDuAn-BackupLinh\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLy
 D:\QuanLiDuAn-BackupLinh\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.pdb
 D:\QuanLiDuAn-BackupLinh\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.SampleAdd.resources
 D:\QuanLiDuAn-BackupLinh\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.SampleView.resources
+=======
+D:\Bin\HK1-3\DBMS\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.frmPhanCa.resources
+>>>>>>> Bin2
