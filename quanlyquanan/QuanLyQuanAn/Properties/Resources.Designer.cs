@@ -74,6 +74,16 @@ namespace QuanLyQuanAn.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3687412 {
+            get {
+                object obj = ResourceManager.GetObject("3687412", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _433087 {
             get {
                 object obj = ResourceManager.GetObject("433087", resourceCulture);
@@ -147,6 +157,16 @@ namespace QuanLyQuanAn.Properties {
         internal static System.Drawing.Bitmap images2 {
             get {
                 object obj = ResourceManager.GetObject("images2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_edit_icon_design__essential_icon_vector_design_png_image_877474 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-edit-icon-design--essential-icon-vector-design-png-image_877474", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

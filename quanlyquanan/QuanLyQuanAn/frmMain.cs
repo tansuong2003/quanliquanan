@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyQuanAn.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -38,6 +39,10 @@ namespace QuanLyQuanAn
         {
 
         }
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
@@ -46,7 +51,7 @@ namespace QuanLyQuanAn
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            AddControls(new frmPhanCa());
+            AddControls(new frmPhanCaView());
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -64,15 +69,15 @@ namespace QuanLyQuanAn
             AddControls(new frmHome());
         }
 
-<<<<<<< HEAD
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-
-=======
+        
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            
->>>>>>> Bin2
+
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            AddControls(new PhieuChiView());
         }
     }
 }

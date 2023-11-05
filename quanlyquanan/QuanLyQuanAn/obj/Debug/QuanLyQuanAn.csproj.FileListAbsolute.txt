@@ -49,3 +49,9 @@ D:\QuanLiDuAn-BackupLinh\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLy
 =======
 D:\Bin\HK1-3\DBMS\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.frmPhanCa.resources
 >>>>>>> Bin2
+D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.SampleAdd.resources
+D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.SampleView.resources
+D:\Bin\HK1-3\DBMS\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.View.frmPhanCaView.resources
+D:\Bin\HK1-3\DBMS\quanliquanan\quanlyquanan\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.Model.frmPhanCaAdd.resources
+D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.View.frmPhieuChiView.resources
+D:\Bin\HK1-3\DBMS\quanliquanan\QuanLyQuanAn\QuanLyQuanAn\obj\Debug\QuanLyQuanAn.View.PhieuChiView.resources

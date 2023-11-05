@@ -76,6 +76,12 @@
     <Compile Include="frmPhanCa.Designer.cs">
       <DependentUpon>frmPhanCa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\frmPhanCaAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmPhanCaAdd.Designer.cs">
+      <DependentUpon>frmPhanCaAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="My_DB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,11 +97,23 @@
     <Compile Include="SampleView.Designer.cs">
       <DependentUpon>SampleView.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\frmPhanCaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmPhanCaView.Designer.cs">
+      <DependentUpon>frmPhanCaView.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\frmStaffView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\frmStaffView.Designer.cs">
       <DependentUpon>frmStaffView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PhieuChiView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PhieuChiView.Designer.cs">
+      <DependentUpon>PhieuChiView.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -108,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPhanCa.resx">
       <DependentUpon>frmPhanCa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmPhanCaAdd.resx">
+      <DependentUpon>frmPhanCaAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,6 +145,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SampleView.resx">
       <DependentUpon>SampleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPhanCaView.resx">
+      <DependentUpon>frmPhanCaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PhieuChiView.resx">
+      <DependentUpon>PhieuChiView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -175,8 +202,12 @@
   <ItemGroup>
     <None Include="Resources\icons8-search-641.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Model\" />
+    <None Include="Resources\pngtree-edit-icon-design--essential-icon-vector-design-png-image_877474.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3687412.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
