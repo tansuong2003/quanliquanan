@@ -39,6 +39,10 @@ namespace QuanLyQuanAn
         {
 
         }
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
@@ -47,7 +51,7 @@ namespace QuanLyQuanAn
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-
+            AddControls(new frmPhanCaView());
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -65,14 +69,25 @@ namespace QuanLyQuanAn
             AddControls(new frmHome());
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
+        
+        private void guna2Button6_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnEmployee_Click(object sender, EventArgs e)
+        private void guna2Button7_Click(object sender, EventArgs e)
         {
-            AddControls(new frmStaffView());
+            AddControls(new PhieuChiView());
+        }
+
+        private void guna2ControlBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

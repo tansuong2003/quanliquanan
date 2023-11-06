@@ -14,7 +14,7 @@ namespace QuanLyQuanAn
     internal class My_DB
     {
         //Tao 2 bien cuc bo
-        public static readonly string strCon = @"Data Source=LAPTOP-K6GL17UI\NHATLINH;Initial Catalog=QuanLyQuanAn;Integrated Security=True; User ID=sa; Password=123456";
+        public static readonly string strCon = @"Data Source=THEBIN\THEBIN;Initial Catalog=QuanLyQuanAn;Integrated Security=True; User ID=sa; Password=123456";
         //Doi tuong ket noi
         public static SqlConnection sqlCon = new SqlConnection(strCon);
 
@@ -41,11 +41,10 @@ namespace QuanLyQuanAn
             get { return user; }
             private set { user = value; }
         }
-        //Method for curd operation
-        public static int SQl(string qry, Hashtable ht)
+        
+        public static int SQL(string qry, Hashtable ht)
         {
             int res = 0;
-
             try
             {
                 SqlCommand cmd = new SqlCommand(qry, sqlCon);
@@ -59,39 +58,38 @@ namespace QuanLyQuanAn
                 res = cmd.ExecuteNonQuery();
                 if (sqlCon.State == ConnectionState.Open) { sqlCon.Close(); }
             }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-                sqlCon.Close();
-            }
-            return res;
-
-        }
-        //For loading data from database
-        public static void LoadData(String qry,DataGridView gv, ListBox lb)
-        {
-            try
-            {
-                SqlCommand cmd = new SqlCommand(qry, sqlCon);
-                cmd.CommandType = CommandType.Text;
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-
-                for(int i = 0; i< lb.Items.Count; i++) 
-                {
-                    string colNam1 = ((DataGridViewColumn)lb.Items[i]).Name;
-                    gv.Columns[colNam1].DataPropertyName = dt.Columns[i].ToString();
-                }
-                gv.DataSource = dt;
-
-            }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
                 sqlCon.Close();
             }
+            return res;
         }
-       
-    }
+
+
+        //For loading data from database
+        public static void LoadData(string qry, DataGridView gv, ListBox lb)
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand(qry, sqlCon);
+                cmd.CommandType = CommandType.Text;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);    
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                for(int i =0; i < lb.Items.Count; i++)
+                {
+                    string colNam1 = ((DataGridViewColumn)lb.Items[i]).Name;
+                    gv.Columns[colNam1].DataPropertyName = dt.Columns[i].ToString();
+                }
+                gv.DataSource = dt;
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+                sqlCon.Close();
+            }
+        }
+    }   
+
+
 }

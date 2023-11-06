@@ -17,27 +17,17 @@ namespace QuanLyQuanAn
             InitializeComponent();
         }
 
-        public virtual void label1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        public virtual void txtSearch_TextChanged(object sender, EventArgs e)
+        public virtual void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
         public virtual void btnAdd_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        public virtual void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        public virtual void txtSearch_TextChanged_1(object sender, EventArgs e)
         {
 
         }
