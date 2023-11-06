@@ -14,7 +14,7 @@ namespace QuanLyQuanAn
     internal class My_DB
     {
         //Tao 2 bien cuc bo
-        public static readonly string strCon = @"Data Source=THEBIN\THEBIN;Initial Catalog=QuanLyQuanAn;Integrated Security=True; User ID=sa; Password=123456";
+        public static readonly string strCon = @"Data Source=DESKTOP-JHKCG4S\TRONGTHOAI;Initial Catalog=QLQuanAn;Integrated Security=True; User ID=sa; Password=123456";
         //Doi tuong ket noi
         public static SqlConnection sqlCon = new SqlConnection(strCon);
 
@@ -90,6 +90,4 @@ namespace QuanLyQuanAn
             }
         }
     }   
-
-
 }

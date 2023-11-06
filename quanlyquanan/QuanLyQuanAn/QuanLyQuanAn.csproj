@@ -82,6 +82,18 @@
     <Compile Include="Model\frmPhanCaAdd.Designer.cs">
       <DependentUpon>frmPhanCaAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\frmLoaiSanPhamAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmLoaiSanPhamAdd.Designer.cs">
+      <DependentUpon>frmLoaiSanPhamAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\frmSanPhamAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmSanPhamAdd.Designer.cs">
+      <DependentUpon>frmSanPhamAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="My_DB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,6 +114,18 @@
     </Compile>
     <Compile Include="View\frmPhanCaView.Designer.cs">
       <DependentUpon>frmPhanCaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmLoaiSanPhamView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmLoaiSanPhamView.Designer.cs">
+      <DependentUpon>frmLoaiSanPhamView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSanPhamView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSanPhamView.Designer.cs">
+      <DependentUpon>frmSanPhamView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\frmStaffView.cs">
       <SubType>Form</SubType>
@@ -130,6 +154,12 @@
     <EmbeddedResource Include="Model\frmPhanCaAdd.resx">
       <DependentUpon>frmPhanCaAdd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmLoaiSanPhamAdd.resx">
+      <DependentUpon>frmLoaiSanPhamAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmSanPhamAdd.resx">
+      <DependentUpon>frmSanPhamAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -148,6 +178,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmPhanCaView.resx">
       <DependentUpon>frmPhanCaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLoaiSanPhamView.resx">
+      <DependentUpon>frmLoaiSanPhamView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSanPhamView.resx">
+      <DependentUpon>frmSanPhamView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\PhieuChiView.resx">
       <DependentUpon>PhieuChiView.cs</DependentUpon>
@@ -202,7 +238,9 @@
   <ItemGroup>
     <None Include="Resources\icons8-search-641.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pngtree-edit-icon-design--essential-icon-vector-design-png-image_877474.jpg" />
   </ItemGroup>
