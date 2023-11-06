@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyQuanAn.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -62,6 +63,16 @@ namespace QuanLyQuanAn
         private void btnHome_Click(object sender, EventArgs e)
         {
             AddControls(new frmHome());
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmStaffView());
         }
     }
 }
