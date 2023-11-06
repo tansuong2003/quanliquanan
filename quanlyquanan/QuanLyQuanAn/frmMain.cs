@@ -37,7 +37,7 @@ namespace QuanLyQuanAn
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-
+            AddControls(new frmLoaiSanPhamView());
         }
         private void guna2Button2_Click(object sender, EventArgs e)
         {
