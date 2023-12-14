@@ -14,7 +14,7 @@ namespace QuanLyQuanAn
     internal class My_DB
     {
         //Tao 2 bien cuc bo
-        public static readonly string strCon = @"Data Source=THEBIN\THEBIN;Initial Catalog=QuanLyQuanAn;Integrated Security=True; User ID=sa; Password=123456";
+        public static readonly string strCon = @"Data Source=LAPTOP-828J853G\SQLEXPRESS;Initial Catalog=QLQuanAn;Integrated Security=True; User ID=sa; Password=123456";
         //Doi tuong ket noi
         public static SqlConnection sqlCon = new SqlConnection(strCon);
 
@@ -80,7 +80,7 @@ namespace QuanLyQuanAn
                 for(int i =0; i < lb.Items.Count; i++)
                 {
                     string colNam1 = ((DataGridViewColumn)lb.Items[i]).Name;
-                    gv.Columns[colNam1].DataPropertyName = dt.Columns[i].ToString();
+                    gv.Columns[colNam1].DataPropertyName= dt.Columns[i].DataType.ToString();
                 }
                 gv.DataSource = dt;
             }catch (Exception ex)

@@ -56,5 +56,10 @@ namespace QuanLyQuanAn.Model
         {
 
         }
+
+        private void frmPhanCaAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

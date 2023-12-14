@@ -39,7 +39,7 @@ namespace QuanLyQuanAn.View
         }
         public override void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
-            GetData();
+          
         }
 
         public override void btnAdd_Click(object sender, EventArgs e)
@@ -56,12 +56,11 @@ namespace QuanLyQuanAn.View
 
         private void guna2ControlBox2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void guna2ControlBox3_Click(object sender, EventArgs e)
         {
-
         }
         private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -94,6 +93,11 @@ namespace QuanLyQuanAn.View
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            GetData();
+        }
+
+        private void btnAdd_Click_1(object sender, EventArgs e)
         {
 
         }

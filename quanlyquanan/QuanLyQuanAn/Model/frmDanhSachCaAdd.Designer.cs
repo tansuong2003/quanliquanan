@@ -40,7 +40,7 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(169, 25);
+            this.label1.Size = new System.Drawing.Size(247, 38);
             this.label1.Text = "Danh Sách Ca Làm";
             // 
             // label2
@@ -48,7 +48,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(26, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 19);
+            this.label2.Size = new System.Drawing.Size(73, 30);
             this.label2.TabIndex = 2;
             this.label2.Text = "Mã Ca";
             // 
@@ -57,7 +57,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(26, 207);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 19);
+            this.label3.Size = new System.Drawing.Size(107, 30);
             this.label3.TabIndex = 3;
             this.label3.Text = "Ngày Làm";
             // 
@@ -66,7 +66,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(26, 254);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 19);
+            this.label4.Size = new System.Drawing.Size(125, 30);
             this.label4.TabIndex = 4;
             this.label4.Text = "Giờ Bắt Đầu";
             // 
@@ -75,7 +75,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(26, 307);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 19);
+            this.label5.Size = new System.Drawing.Size(132, 30);
             this.label5.TabIndex = 5;
             this.label5.Text = "Giờ Kết Thúc";
             // 
@@ -85,7 +85,7 @@
             this.dttNgayLam.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dttNgayLam.Location = new System.Drawing.Point(145, 207);
             this.dttNgayLam.Name = "dttNgayLam";
-            this.dttNgayLam.Size = new System.Drawing.Size(121, 26);
+            this.dttNgayLam.Size = new System.Drawing.Size(121, 35);
             this.dttNgayLam.TabIndex = 14;
             this.dttNgayLam.Value = new System.DateTime(2023, 11, 2, 0, 0, 0, 0);
             // 
@@ -93,7 +93,7 @@
             // 
             this.txtGioBD.Location = new System.Drawing.Point(145, 254);
             this.txtGioBD.Name = "txtGioBD";
-            this.txtGioBD.Size = new System.Drawing.Size(121, 26);
+            this.txtGioBD.Size = new System.Drawing.Size(121, 35);
             this.txtGioBD.TabIndex = 13;
             // 
             // cbMaCa
@@ -106,19 +106,19 @@
             "Ca4"});
             this.cbMaCa.Location = new System.Drawing.Point(145, 161);
             this.cbMaCa.Name = "cbMaCa";
-            this.cbMaCa.Size = new System.Drawing.Size(121, 27);
+            this.cbMaCa.Size = new System.Drawing.Size(121, 36);
             this.cbMaCa.TabIndex = 12;
             // 
             // txtGioKT
             // 
             this.txtGioKT.Location = new System.Drawing.Point(145, 300);
             this.txtGioKT.Name = "txtGioKT";
-            this.txtGioKT.Size = new System.Drawing.Size(121, 26);
+            this.txtGioKT.Size = new System.Drawing.Size(121, 35);
             this.txtGioKT.TabIndex = 15;
             // 
             // frmDanhSachCaAdd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 450);
             this.Controls.Add(this.txtGioKT);
@@ -131,6 +131,7 @@
             this.Controls.Add(this.label2);
             this.Name = "frmDanhSachCaAdd";
             this.Text = "frmDanhSachCaAdd";
+            this.Load += new System.EventHandler(this.frmDanhSachCaAdd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

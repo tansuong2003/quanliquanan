@@ -49,7 +49,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Size = new System.Drawing.Size(242, 25);
+            this.label1.Size = new System.Drawing.Size(363, 40);
             this.label1.Text = "DANH SÁCH CA LÀM VIỆC";
             // 
             // btnAdd
@@ -59,6 +59,7 @@
             this.btnAdd.HoverState.ImageSize = new System.Drawing.Size(57, 57);
             this.btnAdd.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Normal;
             this.btnAdd.PressedState.ImageSize = new System.Drawing.Size(55, 55);
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             // 
             // guna2DataGridView1
             // 
@@ -101,6 +102,7 @@
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersVisible = false;
+            this.guna2DataGridView1.RowHeadersWidth = 62;
             this.guna2DataGridView1.Size = new System.Drawing.Size(1088, 400);
             this.guna2DataGridView1.TabIndex = 6;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -140,24 +142,28 @@
             // dgvMaCa
             // 
             this.dgvMaCa.HeaderText = "MaCa";
+            this.dgvMaCa.MinimumWidth = 8;
             this.dgvMaCa.Name = "dgvMaCa";
             this.dgvMaCa.ReadOnly = true;
             // 
             // dgvNgayLam
             // 
             this.dgvNgayLam.HeaderText = "NgayLam";
+            this.dgvNgayLam.MinimumWidth = 8;
             this.dgvNgayLam.Name = "dgvNgayLam";
             this.dgvNgayLam.ReadOnly = true;
             // 
             // dgvGioBatDau
             // 
             this.dgvGioBatDau.HeaderText = "GioBatDau";
+            this.dgvGioBatDau.MinimumWidth = 8;
             this.dgvGioBatDau.Name = "dgvGioBatDau";
             this.dgvGioBatDau.ReadOnly = true;
             // 
             // dgvGioKetThuc
             // 
             this.dgvGioKetThuc.HeaderText = "GioKetThuc";
+            this.dgvGioKetThuc.MinimumWidth = 8;
             this.dgvGioKetThuc.Name = "dgvGioKetThuc";
             this.dgvGioKetThuc.ReadOnly = true;
             // 
@@ -223,7 +229,7 @@
             // 
             // DanhSachCaView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1148, 601);
             this.Controls.Add(this.guna2Panel1);

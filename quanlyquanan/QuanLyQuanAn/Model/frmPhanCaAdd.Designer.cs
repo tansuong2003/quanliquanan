@@ -38,7 +38,7 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(82, 25);
+            this.label1.Size = new System.Drawing.Size(118, 38);
             this.label1.Text = "Phân Ca";
             // 
             // label2
@@ -46,7 +46,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 145);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 19);
+            this.label2.Size = new System.Drawing.Size(67, 30);
             this.label2.TabIndex = 2;
             this.label2.Text = "MaCa";
             // 
@@ -55,7 +55,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(22, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 19);
+            this.label3.Size = new System.Drawing.Size(72, 30);
             this.label3.TabIndex = 3;
             this.label3.Text = "MaNV";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -65,7 +65,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(22, 235);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 19);
+            this.label6.Size = new System.Drawing.Size(101, 30);
             this.label6.TabIndex = 6;
             this.label6.Text = "NgayLam";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -80,14 +80,14 @@
             "Ca4"});
             this.cbMaCa.Location = new System.Drawing.Point(101, 145);
             this.cbMaCa.Name = "cbMaCa";
-            this.cbMaCa.Size = new System.Drawing.Size(121, 27);
+            this.cbMaCa.Size = new System.Drawing.Size(121, 36);
             this.cbMaCa.TabIndex = 7;
             // 
             // txtMaNV
             // 
             this.txtMaNV.Location = new System.Drawing.Point(101, 182);
             this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.Size = new System.Drawing.Size(121, 26);
+            this.txtMaNV.Size = new System.Drawing.Size(121, 35);
             this.txtMaNV.TabIndex = 8;
             // 
             // dttNgayLam
@@ -96,13 +96,13 @@
             this.dttNgayLam.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dttNgayLam.Location = new System.Drawing.Point(101, 228);
             this.dttNgayLam.Name = "dttNgayLam";
-            this.dttNgayLam.Size = new System.Drawing.Size(121, 26);
+            this.dttNgayLam.Size = new System.Drawing.Size(121, 35);
             this.dttNgayLam.TabIndex = 11;
             this.dttNgayLam.Value = new System.DateTime(2023, 11, 2, 0, 0, 0, 0);
             // 
             // frmPhanCaAdd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(332, 374);
             this.Controls.Add(this.dttNgayLam);
@@ -113,6 +113,7 @@
             this.Controls.Add(this.label2);
             this.Name = "frmPhanCaAdd";
             this.Text = "frmPhanCaAdd";
+            this.Load += new System.EventHandler(this.frmPhanCaAdd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

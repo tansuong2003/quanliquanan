@@ -31,5 +31,10 @@ namespace QuanLyQuanAn
         {
 
         }
+
+        private void SampleView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

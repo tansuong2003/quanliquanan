@@ -36,5 +36,9 @@ namespace QuanLyQuanAn.Model
             }
         }
 
+        private void frmDanhSachCaAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -41,7 +41,7 @@ namespace QuanLyQuanAn
         }
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            AddControls(new frmCategoryView());
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -57,6 +57,7 @@ namespace QuanLyQuanAn
         private void frmMain_Load(object sender, EventArgs e)
         {
             lblUser.Text = My_DB.USER;
+            AddControls(new frmHome());
         }
 
         private void CenterPanel_Paint(object sender, PaintEventArgs e)
@@ -86,6 +87,11 @@ namespace QuanLyQuanAn
         }
 
         private void guna2ControlBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

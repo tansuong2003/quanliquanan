@@ -120,5 +120,20 @@ namespace QuanLyQuanAn.View
             DanhSachCaView frm = new DanhSachCaView();
             frm.ShowDialog();
         }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
